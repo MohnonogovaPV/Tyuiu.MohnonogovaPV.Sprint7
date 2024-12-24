@@ -35,13 +35,12 @@
             // button1
             // 
             button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
-            button1.ForeColor = SystemColors.ActiveCaption;
-            button1.Location = new Point(753, 371);
+            button1.Location = new Point(730, 27);
             button1.Name = "button1";
-            button1.Size = new Size(37, 67);
+            button1.Size = new Size(43, 45);
             button1.TabIndex = 0;
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            button1.Click += button1_Click_1;
             // 
             // FormMain
             // 

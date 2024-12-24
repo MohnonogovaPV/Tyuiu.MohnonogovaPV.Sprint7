@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAbout));
             labelInfo_LAV = new Label();
             button1 = new Button();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // labelInfo_LAV
@@ -46,7 +48,7 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.LightBlue;
+            button1.BackColor = Color.FloralWhite;
             button1.Location = new Point(587, 282);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
@@ -55,18 +57,29 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(33, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(203, 238);
+            pictureBox1.TabIndex = 4;
+            pictureBox1.TabStop = false;
+            // 
             // FormAbout
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.LightCyan;
+            BackColor = Color.SeaShell;
             ClientSize = new Size(694, 323);
+            Controls.Add(pictureBox1);
             Controls.Add(button1);
             Controls.Add(labelInfo_LAV);
             MaximizeBox = false;
             Name = "FormAbout";
             Text = "О программе";
             Load += FormAbout_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -74,5 +87,6 @@
         #endregion
         private System.Windows.Forms.Label labelInfo_LAV;
         private Button button1;
+        private PictureBox pictureBox1;
     }
 }

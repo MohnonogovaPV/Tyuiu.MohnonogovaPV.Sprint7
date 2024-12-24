@@ -28,30 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
+            button1 = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // button1
             // 
-            textBox1.Location = new Point(0, 0);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 0;
+            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
+            button1.ForeColor = SystemColors.ActiveCaption;
+            button1.Location = new Point(753, 371);
+            button1.Name = "button1";
+            button1.Size = new Size(37, 67);
+            button1.TabIndex = 0;
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(802, 450);
-            Controls.Add(textBox1);
+            Controls.Add(button1);
             Name = "FormMain";
             Text = "Form1";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private TextBox textBox1;
+        private Button button1;
     }
 }

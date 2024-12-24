@@ -7,5 +7,11 @@ namespace Tyuiu.MohnonogovaPV.Project.V13
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormAbout formAbout = new FormAbout();
+            formAbout.ShowDialog();
+        }
     }
 }

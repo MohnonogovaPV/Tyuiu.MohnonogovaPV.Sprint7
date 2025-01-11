@@ -32,6 +32,7 @@
             labelInfo_LAV = new Label();
             button1 = new Button();
             pictureBox1 = new PictureBox();
+            textBoxAboutME_MPV = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -41,9 +42,8 @@
             labelInfo_LAV.Location = new Point(294, 12);
             labelInfo_LAV.Margin = new Padding(4, 0, 4, 0);
             labelInfo_LAV.Name = "labelInfo_LAV";
-            labelInfo_LAV.Size = new Size(387, 220);
+            labelInfo_LAV.Size = new Size(0, 20);
             labelInfo_LAV.TabIndex = 2;
-            labelInfo_LAV.Text = resources.GetString("labelInfo_LAV.Text");
             labelInfo_LAV.Click += labelInfo_LAV_Click;
             // 
             // button1
@@ -59,12 +59,21 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(33, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(203, 238);
             pictureBox1.TabIndex = 4;
             pictureBox1.TabStop = false;
+            // 
+            // textBoxAboutME_MPV
+            // 
+            textBoxAboutME_MPV.BackColor = Color.SeaShell;
+            textBoxAboutME_MPV.Location = new Point(268, 12);
+            textBoxAboutME_MPV.Multiline = true;
+            textBoxAboutME_MPV.Name = "textBoxAboutME_MPV";
+            textBoxAboutME_MPV.Size = new Size(388, 255);
+            textBoxAboutME_MPV.TabIndex = 5;
+            textBoxAboutME_MPV.Text = resources.GetString("textBoxAboutME_MPV.Text");
             // 
             // FormAbout
             // 
@@ -72,6 +81,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.SeaShell;
             ClientSize = new Size(694, 323);
+            Controls.Add(textBoxAboutME_MPV);
             Controls.Add(pictureBox1);
             Controls.Add(button1);
             Controls.Add(labelInfo_LAV);
@@ -88,5 +98,6 @@
         private System.Windows.Forms.Label labelInfo_LAV;
         private Button button1;
         private PictureBox pictureBox1;
+        private TextBox textBoxAboutME_MPV;
     }
 }

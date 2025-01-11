@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Tyuiu.MohnonogovaPV.Project.V13.Properties {
+namespace Tyuiu.MohnonogovaPV.Sprint7.Project.V13.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Tyuiu.MohnonogovaPV.Project.V13.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Tyuiu.MohnonogovaPV.Project.V13.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Tyuiu.MohnonogovaPV.Sprint7.Project.V13.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

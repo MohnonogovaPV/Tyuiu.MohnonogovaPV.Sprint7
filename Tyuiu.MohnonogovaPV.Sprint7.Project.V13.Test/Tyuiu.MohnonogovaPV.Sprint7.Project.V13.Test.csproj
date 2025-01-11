@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.MohnonogovaPV.Project.V13.Lib\Tyuiu.MohnonogovaPV.Project.V13.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.MohnonogovaPV.Sprint7.Project.V13.Lib\Tyuiu.MohnonogovaPV.Sprint7.Project.V13.Lib.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,4 +1,4 @@
-namespace Tyuiu.MohnonogovaPV.Project.V13
+namespace Tyuiu.MohnonogovaPV.Sprint7.Project.V13
 {
     internal static class Program
     {
